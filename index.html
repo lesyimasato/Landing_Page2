@@ -1,50 +1,104 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <title> TECHEERS </title>
 </head>
+
 <body>
-    <div class="wrapper">
-      <div class="home-content" id="home">
-        <div class="main">
-            <div class="main-content">
-                <h1 class="primary-text"> TECHEERS </h1>
-                <h2 class="second-text"> A sua saúde mental é tão importante quanto a sua saúde física. </h2>
-            </div>      
+      
+      <div class="space-content"></div>
+      <div class="wrapper">
+        <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+  
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+    
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imgs/psico.jpg" alt="Los Angeles" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/team2.jpg" alt="Chicago" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/team.jpg" alt="New York" class="d-block w-100">
         </div>
       </div>
+    
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    
 
-      <div class="space-content"></div>
+    <div class="about-beats-content" id="binaural">
+        <div class="img-carousel-about">
+            <div class="img-carousel-photos">
+                <img src="imgs/beats/binaural1.1.png">
+                <img src="imgs/beats/binaural2.1.png">
+                <img src="imgs/beats/binaural3.3.png">
+                <img src="imgs/beats/binaural1.1.png">
+            </div>
+        </div>
 
-      <div class="about-content" id="sobre">
-        <div class="img-about"></div>
+        <div class="text-binaural-about-content">
+            <p class="text-binaural-about"> Sobre as Batidas Binaurais </p>
+            <div class="text-about-binaural-content">
+                <p class="text-about-binaural"> O que são essas frequências? </p>
+                <p class="text-about-binaural2">           
+                    As batidas (ou sons) binaurais são uma técnica de combinação de duas frequências de som ligeiramente diferentes para criar a percepção de um único tom de nova frequência. 
+                    
+                        <button data-bs-toggle="collapse" data-bs-target="#demo">saiba mais </button>
 
-        <div class="text-head-about-content">
-            <p class="text-head-about"> Sobre a Nossa Equipe </p>
-            <div class="text-about-content">
-                <p class="text-about"> Quem somos nós? </p>
-                <p class="text-about2"> A TECHEERS é uma equipe que foi formada diante do aumento de casos de transtornos de ansiedade, principalmente durante a pandemia do Covid-19. Desse modo, o nosso grupo criou um projeto intitulado HELSE para ajudar no processo de recuperação dessa sequela deixada pelo tempo de pandemia. </p>
+<div id="demo" class="collapse">
+
+<p class="text-about-binaural3">
+                        A ciência mostra que a exposição a batidas binaurais pode criar mudanças no grau de excitação do cérebro. Ouvir esses sons que criam um tom de baixa frequência, segundo os estudos, desencadeia uma desaceleração na atividade das ondas cerebrais - e isso pode ajudá-lo a relaxar, diminuir sua ansiedade e tornar mais fácil para você adormecer e dormir mais profundamente.
+                    </p>
+                </p>
+                </p>
+            </div>
             </div>
         </div>
       </div>
 
-      <div class="space-content"></div>
-
       <div class="project-content" id="projeto">
         <div class="img-project"></div>
-
+      
         <div class="text-head-project-content">
             <p class="text-head-project"> Nosso Projeto </p>
             <div class="text-project-content">
                 <p class="text-project"> O que é o projeto HELSE? </p>
-                <p class="text-project2"> O projeto Helse é dedicado, principalmente, às pessoas que apresentam sintomas relacionados à ansiedade. Ele tem como finalidade ajudar essas pessoas a partir de tratamentos focados em batidas binaurais, as quais são frequências específicas que estimulam positivamente o nosso cérebro, e conversas com psicólogos ou pessoas de mesma situação. </p>
+                <p class="text-project2"> O projeto Helse é dedicado, principalmente, às pessoas que apresentam sintomas relacionados à ansiedade. Ele tem como finalidade ajudar essas pessoas a partir de tratamentos focados em batidas binaurais, as quais são frequências específicas que estimulam positivamente o nosso cérebro, e conversas com psicólogos ou pessoas de mesma situação.
+                    <button data-bs-toggle="collapse" data-bs-target="#demo">saiba mais </button>
+                <div class="container mt-3">
+                    <div id="demo" class="collapse" >
+                        <p class="text-project2">
+                            A ciência mostra que a exposição a batidas binaurais, através dos áudios que podem ser reproduzidos por fones de ouvido, por pelos menos 30 minutos por dia, podem criar mudanças no grau de excitação do cérebro.</p>
+                      </div>
+                </div>
             </div>
         </div>
       </div>
+
 
       <div class="goals-content" id="objetivos">
         <div class="goals-text-content">
@@ -108,34 +162,34 @@
             </div>
        </div> 
       </div>
-      
-      <div class="space-content2"></div>
 
-      <div class="about-beats-content" id="binaural">
-        <div class="img-carousel-about">
-            <div class="img-carousel-photos">
-                <img src="imgs/beats/binaural1.1.png">
-                <img src="imgs/beats/binaural2.1.png">
-                <img src="imgs/beats/binaural3.3.png">
-                <img src="imgs/beats/binaural1.1.png">
-            </div>
-        </div>
 
-        <div class="text-binaural-about-content">
-            <p class="text-binaural-about"> Sobre as Batidas Binaurais </p>
-            <div class="text-about-binaural-content">
-                <p class="text-about-binaural"> O que são essas frequências? </p>
-                <p class="text-about-binaural2"> 
-                    
-                    As batidas (ou sons) binaurais são uma técnica de combinação de duas frequências de som ligeiramente diferentes para criar a percepção de um único tom de nova frequência. 
+      <div class="about-content" id="sobre">
+        <div class="img-about"></div>
 
-                    <p class="text-about-binaural3">
-                        A ciência mostra que a exposição a batidas binaurais pode criar mudanças no grau de excitação do cérebro. Ouvir esses sons que criam um tom de baixa frequência, segundo os estudos, desencadeia uma desaceleração na atividade das ondas cerebrais - e isso pode ajudá-lo a relaxar, diminuir sua ansiedade e tornar mais fácil para você adormecer e dormir mais profundamente.
-                    </p>
-                </p>
+        <div class="text-head-about-content">
+            <p class="text-head-about"> Sobre a Nossa Equipe </p>
+            <div class="text-about-content">
+                <p class="text-about"> Quem somos nós? </p>
+                <p class="text-about2"> A TECHEERS é uma equipe que foi formada diante do aumento de casos de transtornos de ansiedade, principalmente durante a pandemia do Covid-19. 
+                    <button data-bs-toggle="collapse" data-bs-target="#demo">Saiba mais </button>
+
+<div id="demo" class="collapse">
+
+    <p class="text-project2">
+                    Desse modo, o nosso grupo criou um projeto intitulado HELSE para ajudar no processo de recuperação dessa sequela deixada pelo tempo de pandemia. </p>
             </div>
         </div>
       </div>
+    </div>
+      <div class="space-content"></div>
+
+      
+
+   
+      
+      <div class="space-content2"></div>
+
 
       <div class="space-content"></div>
 
@@ -215,9 +269,9 @@
             
                 <ul class="list-footer">
                     <li><a href="#home"> Home </a></li>
-                    <li><a href="#sobre"> Equipe </a></li>
-                    <li><a href="#projeto"> Projeto </a></li>
                     <li><a href="#binaural"> Batidas </a></li>
+                    <li><a href="#projeto"> Projeto </a></li>
+                    <li><a href="#objetivo"> Objetivo </a></li>
                     <li><a href="#integrantes"> Integrantes </a></li>
                 </ul>
             </div>
@@ -236,9 +290,9 @@
             <nav class="header-menu">
                 <ul class="list-itens">
                     <li><a href="#home"> Home </a></li>
-                    <li><a href="#sobre"> Equipe </a></li>
-                    <li><a href="#projeto"> Projeto </a></li>
                     <li><a href="#binaural"> Batidas </a></li>
+                    <li><a href="#projeto"> Projeto </a></li>
+                    <li><a href="#objetivo"> Objetivo </a></li>
                     <li><a href="#integrantes"> Integrantes </a></li>
                 </ul>
             </nav>

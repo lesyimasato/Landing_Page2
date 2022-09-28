@@ -140,6 +140,7 @@ html{
     color: rgb(251, 255, 0);
 }
 
+
 /*Espaço*/
 .space-content{
     position: relative;
@@ -166,10 +167,11 @@ html{
 
 .img-about{
     position: absolute;
-    width: 720px;
-    height: 600px;
-    right: 0;
-    border-radius: 3px;
+    width: 750px;
+    height: 500px;
+    right: 100px;
+    top: 50px;
+    border-radius: 8px;
     background-image: linear-gradient(rgba(92, 92, 92, 0.329), rgba(143, 143, 143, 0.329)),url(../imgs/team2.jpg);
     background-position: center;
     background-size: cover;
@@ -179,7 +181,7 @@ html{
 .text-head-about-content{
     background-color: rgba(255, 255, 255, 0.486);
     position: absolute;
-    width: 670px;
+    width: 720px;
     height: 500px;
     margin: 50px 100px;
     border-radius: 10px;
@@ -214,6 +216,11 @@ html{
     margin: 30px 40px 30px 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+}
+
+.carousel-inner{
+    width: 800px;
+    height: 980px;
 }
 
 /*Icons Sobre*/
@@ -303,7 +310,7 @@ html{
 .text-head-project-content{
     background-color: rgba(211, 211, 211, 0);
     position: absolute;
-    width: 650px;
+    width: 800px;
     height: 500px;
     margin: 90px 60px 50px 40px;
     right: 0;
@@ -336,6 +343,7 @@ html{
     color: #4d4d4d;
     font-size: 20px;
     margin: 30px;
+    left:20px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -386,7 +394,7 @@ html{
     position: relative;
     width: 275px;
     height: 100%;
-    left: 0;
+    left: 50px;
     margin-inline: 0 3%;
     display: inline-block;
 }
@@ -398,6 +406,7 @@ html{
     position: relative;
     width: 275px;
     height: 100%;
+    left: 80px;
     margin-inline: 3%;
     display: inline-block;
 }
@@ -409,6 +418,7 @@ html{
     position: relative;
     width: 275px;
     height: 100%;
+    left: 120px;
     margin-inline: 3%;
     display: inline-block;
 }
@@ -420,7 +430,7 @@ html{
     position: absolute;
     width: 275px;
     height: 100%;
-    right: 0;
+    right: 70px;
     margin-inline: 3% 0px;
     display: inline-block;
 }
@@ -519,9 +529,10 @@ html{
 
 .img-carousel-about{
     position: absolute;
-    width: 570px;
-    height: 600px;
-    right: 0;
+    width: 750px;
+    height: 500px;
+    right: 100px;
+    top: 50px;
     border-radius: 5px;
     background-color: #fcf5ed;
     overflow: hidden;
@@ -551,6 +562,7 @@ html{
     position: absolute;
     width: 670px;
     height: 500px;
+    left: 50px;
     margin: 50px;
     border-radius: 10px;
 }
